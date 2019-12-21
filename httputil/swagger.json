@@ -1,0 +1,17 @@
+{
+    "swagger": "3.0",
+    "parameters": {
+      "ClientHeader": {
+        "name": "goway-client",
+        "type": "string",
+        "in": "header",
+        "required": true
+      },
+      "ProductHeader": {
+        "name": "goway-product",
+        "type": "string",
+        "in": "header",
+        "required": true
+      }
+    }
+  }
